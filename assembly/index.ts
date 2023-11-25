@@ -29,11 +29,30 @@ export function testSpeed(): void {
   console.log("\n\n◄◄◄◄◄◄ AssemblyScript ►►►►►►\n");
 
   console.time("► generateRandomCsv");
-  const jsCsv = generateRandomCsv();
+  let jsCsv = generateRandomCsv();
+  jsCsv = generateRandomCsv();
+  jsCsv = generateRandomCsv();
+  jsCsv = generateRandomCsv();
+  jsCsv = generateRandomCsv();
+  jsCsv = generateRandomCsv();
+  jsCsv = generateRandomCsv();
+  jsCsv = generateRandomCsv();
+  jsCsv = generateRandomCsv();
+  jsCsv = generateRandomCsv();
+  jsCsv = generateRandomCsv();
   console.timeEnd("► generateRandomCsv");
-  
+
   console.time("► rowCount");
   rowCount(jsCsv);
+  rowCount(jsCsv);
+  rowCount(jsCsv);
+  rowCount(jsCsv);
+  rowCount(jsCsv);
+  rowCount(jsCsv);
+  rowCount(jsCsv);
+  rowCount(jsCsv);
+  rowCount(jsCsv);
+  rowCount(jsCsv);
   console.timeEnd("► rowCount");
-  console.log('\n')
+  console.log("\n");
 }
